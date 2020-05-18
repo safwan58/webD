@@ -1,0 +1,27 @@
+li{
+    margin-top: 1em;
+}
+.comp{
+    display: none;
+}
+.mech{
+    display: none;
+}
+.civil{
+    display: none;
+}
+.mechin{
+    display: none;
+}
+.computer:hover .comp{
+    display: block;
+}
+.mechanical:hover .mech{
+    display: block;
+}
+.civ:hover .civil{
+    display: block;
+}
+.mech:hover .mechin{
+    display: block;
+}
