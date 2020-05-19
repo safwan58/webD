@@ -1,0 +1,22 @@
+div.btn{
+    width: 70px;
+    height: 30px;
+    margin: 50px;
+    padding: 50px;
+    background-color: darkslategray;
+    box-shadow: darkslategrey 10px 10px 10px;
+    border-radius: 50px;
+    transform: 0.8s;
+    
+
+}
+div.btn:hover{
+    background-color: dodgerblue;
+    transform: translate(10px,10px);
+    transition: 0.5s;
+}
+div.btn:active{
+    background-color: firebrick;
+    transform: translate(-5px,-5px);
+    transition: 0.2s;
+}
