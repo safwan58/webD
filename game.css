@@ -1,0 +1,47 @@
+.game{
+    margin: 5px;
+    height: 500px;
+    width: 500px;
+    background-color: powderblue;
+}
+.gen{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+
+}
+.player{
+    background-color: seagreen;
+    transform: translateY(200px);
+    animation-name: move;
+    animation-play-state: paused;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.enemy{
+    margin-left: 100px;
+    background-color: red;
+    animation-name: bounce;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.one{
+    animation-duration: 3s;
+}
+.two{
+    animation-duration: 4s;
+}
+.game:active .player{
+     animation-play-state: running;
+}
+@keyframes bounce{
+    50%{
+        transform: translateY(450px);
+    }
+}
+@keyframes move{
+    50%{
+        transform: translate(450px,200px);
+    }
+}
