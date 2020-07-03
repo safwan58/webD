@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: lightcoral;
+    color: limegreen;
+    margin-top: 2px;
+}
+body{
+    background-color: lightgray;
+}
+ul li.done{
+    text-decoration: line-through;
+    background-color: lightslategray;
+}
